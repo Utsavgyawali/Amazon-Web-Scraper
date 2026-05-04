@@ -18,7 +18,7 @@ This project scrapes an Amazon product page to extract the **product title** and
 
 
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 Tool                                                                        Purpose |
 
@@ -33,7 +33,7 @@ Tool                                                                        Purp
 
 
 
-## ⚙️ How It Works
+##  How It Works
 
 1. **Sends an HTTP GET request** to the Amazon product URL with spoofed browser headers to avoid bot detection.
 2. **Parses the HTML** using BeautifulSoup to find the product title (`id='productTitle'`) and price (`class='a-price-whole'`).
@@ -45,7 +45,7 @@ Tool                                                                        Purp
 
 ---
 
-## 📧 Email Alert Setup
+##  Email Alert Setup
 
 The `send_mail()` function uses Gmail's SMTP server:
 
