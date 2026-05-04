@@ -14,7 +14,7 @@ This project scrapes an Amazon product page to extract the **product title** and
 - Appends new records daily to a persistent **CSV file**
 - Uses **Pandas** to read and display collected data
 - Runs automatically every 24 hours via a `while True` loop with `time.sleep()`
-- 📧 **Email alert** via `smtplib` when price drops below a threshold (e.g., ₹300)
+- **Email alert** via `smtplib` when price drops below a threshold (e.g., ₹300)
 
 
 
